@@ -23,7 +23,7 @@ const ticket = ({id,title,img,location,date,button}) => {
               <span class="flex font-semibold dark:text-[#DFDFDF]">{date}</span>
             </div>
             <div class="flex justify-center px-0 pt-3 text-xs md:px-5">
-              <span class="flex md:text-center text-gray-500 dark:text-[#DFDFDF]">{location}</span>
+              <span class="flex text-center md:text-left text-gray-500 dark:text-[#DFDFDF]">{location}</span>
             </div>
             <div class="flex items-center md:px-5 my-2 justify-center">
               <button class="bg-black hover:bg-gray-400 w-full text-white py-2 px-4 inline-flex justify-center">

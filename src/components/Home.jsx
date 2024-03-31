@@ -29,9 +29,9 @@ function Home() {
         
 
              
-    <div className="m-20 p-10 bg-gradient-to-b from-[#F9F8FF] to-[#F3F9FF] dark:bg-gradient-to-b dark:from-[#18282A] dark:to-[#221A2C]">
+    <div className="m-0 p-6 md:m-20 md:p-10 bg-gradient-to-b from-[#F9F8FF] to-[#F3F9FF] dark:bg-gradient-to-b dark:from-[#18282A] dark:to-[#221A2C]">
     <div className='flex flex-col justify-center items-center '>
-            <h1 className='font-bold text-4xl items-center p-6 dark:text-white'>Collection Spotlight</h1>
+            <h1 className='font-bold md:text-4xl text-2xl items-center p-2 md:p-6 dark:text-white'>Collection Spotlight</h1>
                 <h3 className=' py-6 md:px-40 text-center dark:text-white'>
                     Discover extraordinary moments with our Spotlight Collection metatickets—exclusive access to premium events for an unforgettable experience. Grab yours today!
                 </h3>
