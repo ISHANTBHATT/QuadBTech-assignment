@@ -1,7 +1,7 @@
 import React from 'react'
 import CardCarousel from "./Carousel";
 import { data2 } from './data';
-import Card from './Card2';
+import Card from './Card';
 import AdCard from './AdCard';
 function Home() {
   return (

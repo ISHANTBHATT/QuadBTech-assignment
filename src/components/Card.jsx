@@ -1,6 +1,6 @@
 import React from "react";
 
-const ticket = ({id,title,img,Number,sport}) => {
+const Card = ({id,title,img,Number,sport}) => {
   return (
     <div>
         <div className="w-48 md:w-72  h-full mx-auto z-10 flex flex-col">
@@ -35,4 +35,4 @@ const ticket = ({id,title,img,Number,sport}) => {
   );
 };
 
-export default ticket;
+export default Card;
