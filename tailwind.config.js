@@ -47,10 +47,13 @@ module.exports = {
       colors: {
         headingColor: "#2e2e2e",
         textColor: "#4B5665",
-        primary: "#F7F7F8",
+        primary: "#eee",
         cardOverlay: "rgba(256,256,256,0.4)",
         lighttextGray: "#9ca0ab",
         card: "rgba(256,256,256,0.8)",
+      },
+      fontFamily: {
+        mclaren: ["McLaren", "cursive"],
       },
     },
   },
