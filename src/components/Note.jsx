@@ -34,38 +34,3 @@ function Note(props) {
 }
 
 export default Note;
-
-// import React from "react";
-// import { connect } from "react-redux";
-// import { removeTask, toggleTask } from "../action";
-
-// function Note(props) {
-//   function handleClick() {
-//     props.removeTask(props.id);
-//   }
-
-//   function toggleCompletion() {
-//     props.toggleTask(props.id);
-//   }
-
-//   return (
-//     <div className={`bg-white rounded-lg shadow-md p-4 w-64 mb-4 ml-4 float-left ${props.completed ? 'line-through' : ''}`}>
-//       <h1 className="text-lg mb-2">{props.title}</h1>
-//       <p className="text-base mb-2 whitespace-pre-wrap break-word">{props.content}</p>
-//       <input
-//         type="checkbox"
-//         checked={props.completed}
-//         onChange={toggleCompletion}
-//         className="form-checkbox h-5 w-5 text-primary"
-//       />
-//       <button
-//         className="relative float-right text-yellow-400 border-none w-9 h-9 p-1 bg-primary cursor-pointer outline-none"
-//         onClick={handleClick}
-//       >
-//         <MdDelete className="w-full h-full"/>
-//       </button>
-//     </div>
-//   );
-// }
-
-// export default connect(null, { removeTask, toggleTask })(Note);
